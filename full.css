@@ -2,10 +2,70 @@
 
 body{
 
-    background-color: blue;
-    color: orangered;
+
+
+    color: #3D4573;
+    background-color: #F2D230;
     padding:0px;
+
+
+
+    
+/* 
+.Arab-Character-Design-1-hex { color: #3D4573; }
+.Arab-Character-Design-2-hex { color: #F2D230; }
+.Arab-Character-Design-3-hex { color: #F2A057; }
+.Arab-Character-Design-4-hex { color: #F29B88; }
+.Arab-Character-Design-5-hex { color: #260101; }
+*/
+
+
+
     
 
 
 }
+
+#wrapper
+{
+width: 960px;
+height: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color:#F2A057;
+}
+
+#Home{
+    width: 1500px;
+    height: 600px;
+    background-color: #F2A057;
+    
+}
+
+h3,h4,p{
+
+    color:#260101; 
+    margin-left: 15px;
+
+}
+
+header{
+    color:#F2D230;
+    background-color: #3D4573;
+}
+
+img{
+
+    width: 60px;
+    height: 60px;
+    margin-left: 15px; 
+   
+}
+
+footer{
+    height:80px;
+}
+
+
+
+
