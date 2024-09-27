@@ -253,6 +253,21 @@ button:hover {
 
 
 
+.project{
+
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    border-style: dotted;
+    border-color: #260101;
+}
+
+
+
 /* 
 .Arab-Character-Design-1-hex { color: #3D4573; }
 .Arab-Character-Design-2-hex { color: #F2D230; }
