@@ -266,7 +266,18 @@ button:hover {
     border-color: #260101;
 }
 
+.project h3,h4,p{
+    color:#3D4573;
 
+}
+
+#project-head {
+    color: #3D4573;
+    align-items: center;
+    text-align:center; 
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
 
 /* 
 .Arab-Character-Design-1-hex { color: #3D4573; }
