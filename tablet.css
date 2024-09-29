@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2D230;
+
+    
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header Section */
+#header {
+    padding: 15px 0;
+    background: linear-gradient(to bottom, #3D4573 0%, #F2D230 100%);
+}
+
+.logo h1 {
+    font-size: 2em;
+}
+
+.navlist ul {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navlist ul li {
+    margin: 0;
+}
+
+.navlist ul li a {
+    font-size: 1.1em;
+    padding: 10px 15px;
+}
+
+/* Projects Section */
+.project {
+    width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 2em;
+}
+
+.project h4 {
+    font-size: 1.4em;
+}
+
+.project p {
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    padding: 18px 0;
+}
+
+footer ul {
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+/* About Me Section */
+.wrapper {
+    width: 85%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    font-size: 2.2em;
+}
+
+.wrapper img {
+    width: 130px;
+}
+
+.wrapper p {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#project-head {
+    font-size: 2.3em;
+}
