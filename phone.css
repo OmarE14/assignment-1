@@ -29,7 +29,14 @@ body {
     padding: 10px 0;
 }
 
+
+
+.logo h1 span {
+    color: #F2D230;
+}
+
 .logo h1 {
+    margin:0;
     font-size: 1.5em;
 }
 
@@ -115,3 +122,22 @@ video {
     font-size: 2em;
 }
 
+/* Navigation Menu */
+.navlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlist ul li {
+    display: inline;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}

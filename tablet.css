@@ -22,8 +22,14 @@ body {
     background: linear-gradient(to bottom, #3D4573 0%, #F2D230 100%);
 }
 
+
 .logo h1 {
+    margin: 0;
     font-size: 2em;
+}
+
+.logo h1 span {
+    color: #F2D230;
 }
 
 .navlist ul {
