@@ -175,6 +175,7 @@ video {
     margin: 20px auto;
     border: 4px solid #3D4573;
     border-radius: 10px;
+    object-position: center;
 }
 
 button {
