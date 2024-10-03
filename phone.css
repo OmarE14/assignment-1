@@ -22,6 +22,7 @@ body {
     background: -webkit-linear-gradient(top, #3D4573 0%, #F2D230 100%);
     background: -o-linear-gradient(top, #3D4573 0%, #F2D230 100%);
     background: linear-gradient(to bottom, #3D4573 0%, #F2D230 100%);
+    background: linear-gradient(to right, #3D4573, #F2D230 );
     color: white;
     padding: 15px 0;
 }
