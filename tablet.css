@@ -196,6 +196,7 @@ button {
     border-style: dotted;
     border-color: #260101;
     align-self: center;
+    background: linear-gradient(45deg, silver, #F2A057);
 }
 
 .wrapper h1 {
@@ -247,7 +248,7 @@ button {
 
 #wrapper input[type="reset"]{
 
-    background-color: white;
+    background: none;
     border: none;
     color:#3D4573;
 
@@ -283,6 +284,7 @@ button {
     text-align: center;
     border-style: dotted;
     border-color: #260101;
+    background: linear-gradient(45deg, silver, #F2A057);
 }
 
 .header-container{
@@ -313,6 +315,7 @@ button {
     text-align:center; 
     font-size: 2.5em;
     margin-bottom: 20px;
+    
 }
 
 #linkedin {
@@ -326,8 +329,8 @@ button {
     text-align: center;
 }
 
-#Home h3 {
-    font-size: 3em;
+#Home h1 {
+    font-size: 2.6em;
     color: #3D4573;
     font-weight: 600;
 }
@@ -398,4 +401,12 @@ button {
 #wrapper input[type="submit"]:active {
     background-color: #F2D230;
     color: #3D4573
+}
+
+.header-container{
+    background: linear-gradient(45deg, silver, #F2A057);
+}
+
+#wrapper{
+    background: linear-gradient(45deg, silver, #F2A057);
 }

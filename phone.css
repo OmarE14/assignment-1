@@ -209,13 +209,10 @@ button {
     border-style: dotted;
     border-color: #260101;
     align-self: center;
+    background: linear-gradient(45deg, silver, #F2A057);
 }
 
-.wrapper h1 {
-    font-size: 2.5em;
-    color: #3D4573;
-    margin-bottom: 20px;
-}
+
 
 .wrapper img {
     width: 150px;
@@ -241,7 +238,7 @@ button {
 
 
 .wrapper h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #3D4573;
     margin-bottom: 20px;
 }
@@ -253,14 +250,14 @@ button {
 }
 
 .wrapper p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #3D4573;
     line-height: 1.5;
 }
 
 #wrapper input[type="reset"]{
 
-    background-color: white;
+    background: none;
     border: none;
     color:#3D4573;
 
@@ -296,6 +293,8 @@ button {
     text-align: center;
     border-style: dotted;
     border-color: #260101;
+
+    background: linear-gradient(45deg, silver, #F2A057);
 }
 
 .header-container{
@@ -326,6 +325,7 @@ button {
     text-align:center; 
     font-size: 2.5em;
     margin-bottom: 20px;
+   
 }
 
 #linkedin {
@@ -339,8 +339,8 @@ button {
     text-align: center;
 }
 
-#Home h3 {
-    font-size: 3em;
+#Home h1 {
+    font-size: 2.1em;
     color: #3D4573;
     font-weight: 600;
 }
@@ -373,7 +373,7 @@ button {
 }
 
 #wrapper h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: #3D4573;
     text-align: center;
     margin-bottom: 20px;
@@ -389,11 +389,11 @@ button {
 #wrapper input[type="email"],
 #wrapper input[type="tel"],
 #wrapper textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 2px solid #3D4573;
     border-radius: 5px;
-    font-size: 1.3em;
+    font-size: 1em;
     align-self: center;
 }
 
@@ -403,7 +403,7 @@ button {
     padding: 15px;
     border: none;
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -411,4 +411,13 @@ button {
 #wrapper input[type="submit"]:active {
     background-color: #F2D230;
     color: #3D4573
+}
+
+
+.header-container{
+    background: linear-gradient(45deg, silver, #F2A057);
+}
+
+#wrapper{
+    background: linear-gradient(45deg, silver, #F2A057);
 }
