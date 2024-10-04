@@ -54,6 +54,7 @@ body {
 .navlist ul li {
     margin: 0;
     list-style: none;
+    
 }
 
 .navlist ul li a {
@@ -63,6 +64,7 @@ body {
     background:#3D4573; 
     float: right;
     margin-right: 10px;
+    
 }
 
 /* Projects Section */
@@ -118,6 +120,7 @@ footer ul li {
 
 .wrapper img {
     width: 130px;
+   
 }
 
 .wrapper p {
