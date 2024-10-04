@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-size: 3px;
+    list-style: none;
     
 }
 
@@ -53,7 +54,8 @@ body {
 
 .navlist ul li {
     margin: 0;
-    list-style: none;
+    display: inline;
+    
 }
 
 .navlist ul li a {
