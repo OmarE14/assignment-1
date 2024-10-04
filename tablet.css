@@ -123,8 +123,13 @@ footer ul li {
 }
 
 video {
-    width: 88%;
-    height: auto;
+    width: 66%;
+    object-position: center;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    align-items: center;
+    margin-right: 2px; 
 }
 
 #project-head {
@@ -168,8 +173,11 @@ video {
     margin: 19px auto;
     border: 3px solid #3D4573;
     border-radius: 10px;
-    margin-left: 1px;
+    
     align-items: center;
+    width: 43%;
+    height: 50%;
+    
     
 }
 
