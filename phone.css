@@ -51,6 +51,8 @@ body {
     justify-content: space-around;
     background-size: 3px;
     list-style: none;
+
+    /*makes the list in a single rows and centers it in the header while making it flexible while evenly spaced out*/
     
 }
 
@@ -58,7 +60,7 @@ body {
 
 .navlist ul li {
     margin: 0;
-    display: inline;
+    
     
 }
 
@@ -302,7 +304,7 @@ button {
     width: 80%;
     height: 10%;
     margin: 50px auto;
-    background-color: white;
+   
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -382,7 +384,7 @@ button {
 #wrapper form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 #wrapper input[type="text"],
@@ -397,6 +399,8 @@ button {
     align-self: center;
 }
 
+/*text area is made wide enough for users to be able to tap on it easily */
+
 #wrapper input[type="submit"] {
     background-color: #3D4573;
     color: white;
@@ -404,7 +408,6 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 1.2em;
-    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
@@ -412,6 +415,7 @@ button {
     background-color: #F2D230;
     color: #3D4573
 }
+/*instead of adding a hover effect, the transition will now take place when the mob user taps on the button*/
 
 
 .header-container{
