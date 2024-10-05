@@ -4,7 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* General Body Styling */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -14,13 +14,13 @@ body {
     
 }
 
-/* Container */
+
 .container {
     width: 90%;
     margin: auto;
 }
 
-/* Header Section */
+
 #header {
     background: -moz-linear-gradient(top, #3D4573 0%, #F2D230 100%);
     background: -webkit-linear-gradient(top, #3D4573 0%, #F2D230 100%);
@@ -47,6 +47,10 @@ body {
     display: flex;
     justify-content: space-around;
     background-size: 3px;
+
+    /*makes the list in a single rows and 
+    centers it in the header while making it flexible while evenly spaced out
+    */
 }
 
 
@@ -68,7 +72,6 @@ body {
     
 }
 
-/* Projects Section */
 .project {
     width: 85%;
     margin: 30px auto;
@@ -93,7 +96,7 @@ button {
     font-size: 1em;
 }
 
-/* Footer */
+
 footer {
     padding: 18px 0;
 }
@@ -107,7 +110,7 @@ footer ul li {
     margin: 0 10px;
 }
 
-/* About Me Section */
+
 .wrapper {
     width: 85%;
     margin: 40px auto;
@@ -420,8 +423,14 @@ button {
 
 .header-container{
     background: linear-gradient(45deg, silver, #F2A057);
+    background: -moz-linear-gradient(45deg, silver, #F2A057);
+    background: -webkit-linear-gradient(45deg, silver, #F2A057);
+    background: -o-linear-gradient(45deg, silver, #F2A057);
 }
 
 #wrapper{
     background: linear-gradient(45deg, silver, #F2A057);
+    background: -moz-linear-gradient(45deg, silver, #F2A057);
+    background: -webkit-linear-gradient(45deg, silver, #F2A057);
+    background: -o-linear-gradient(45deg, silver, #F2A057);
 }
